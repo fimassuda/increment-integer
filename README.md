@@ -19,7 +19,7 @@ A Single Page Application in Angular to authenticate and access the Increment-In
 
 `Deployed in AWS S3`
 
-[More detail on how to deploy locally and use the api](https://github.com/fimassuda/increment-integer/)
+[More detail on how to deploy locally and use the api](https://github.com/fimassuda/increment-integer/tree/master/increment-integer-front)
 
 ## Increment-Integer-API
 
@@ -27,4 +27,4 @@ An API developed in Node.JS
 
 `Deployed in AWS ECS and accessed through Elastic Load Balancer`
 
-[More detail on how to deploy locally and use the api](https://github.com/fimassuda/increment-integer/)
+[More detail on how to deploy locally and use the api](https://github.com/fimassuda/increment-integer/tree/master/incrementing-integer-api)
