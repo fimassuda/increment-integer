@@ -1,0 +1,11 @@
+.row {
+  margin: 10px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.current-value {
+  font-size: x-large;
+}

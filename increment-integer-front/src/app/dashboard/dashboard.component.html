@@ -1,0 +1,42 @@
+<div class="container">
+
+  <div class="row">
+    <h1>Increment Integer</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center current-value">
+      Integer: <span class="badge">{{currentValue}}</span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-lg btn-primary" (click)="current()">Current</button>
+      </span>
+      
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-lg btn-success" (click)="next()">Next</button>
+      </span>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <input type="text" name="resetInteger" id="inputInteger" #resetInteger placeholder="Reset to ..." class="form-control">
+    </div>
+
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-lg btn-danger" (click)="resetCurrent(resetInteger.value)">Reset</button>
+      </span>
+    </div>
+
+  </div>
+</div>

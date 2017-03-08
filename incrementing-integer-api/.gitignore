@@ -1,0 +1,11 @@
+# NodeJS
+node_modules
+
+# Env
+.env
+
+# JSDOC
+doc
+
+# VSCode
+.vscode

@@ -1,0 +1,17 @@
+version: '2'
+services:
+  api:
+    image: fimassuda/increment-integer-api:latest
+    cpu_shares: 100
+    mem_limit: 262144000
+    ports:
+     - "3000:3000"
+    environment:
+      REDISHOST: redis
+      REDISPORT: "6379"
+    links:
+     - redis
+  redis:
+    image: "redis:alpine"
+    cpu_shares: 100
+    mem_limit: 262144000
